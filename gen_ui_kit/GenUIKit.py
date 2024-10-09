@@ -16,8 +16,8 @@ from langchain.output_parsers import JsonOutputToolsParser
 from git import Repo
 
 # Local library imports
-from .tools import AppScreens, UiCode, ReadMeContent
-from .prompts import (
+from .GenUIKitTools import AppScreens, UiCode, ReadMeContent
+from .GenUIKitPrompts import (
     PROMPT_ADVANCED_REQUIREMENTS,
     PROMPT_GET_INITIAL_PROJECT_CONFIG,
     PROMPT_REALTIME_USER_INTERACTION_TO_GENERATE_CODE,
