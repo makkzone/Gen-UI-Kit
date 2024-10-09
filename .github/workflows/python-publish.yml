@@ -31,7 +31,11 @@ jobs:
         with:
           python-version: 3.10.11
           architecture: 'arm64'
-
+      
+      - name: Get the Git tag
+        id: get_tag
+        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+        
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip

@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
+import os
+version = os.getenv('VERSION', '0.1.0')
 
 setup(
     name='gen_ui_kit',
-    version='0.1.0',
+    version=version,
     description='Gen-UI-Kit is a developer tool that generates starter web UI kits based on project ideas and descriptions. Leveraging LangChain and Cloudscape Design System, it simplifies the process of starting a project by providing a customizable UI kit. Developers can easily connect the generated kit to their APIs or backends, accelerating the early stages of development for new apps or front-end interfaces.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown', 
