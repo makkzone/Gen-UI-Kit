@@ -10,9 +10,10 @@ setup(
     author_email='manojkumar.kotakonda@gmail.com',
     url='https://github.com/makkzone/Gen-UI-Kit', 
     packages=find_packages(), 
+    license=open('LICENSE').read(),
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: MIT License', 
+        'License-Expression: MIT', 
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.9',
