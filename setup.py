@@ -13,7 +13,7 @@ setup(
     license=open('LICENSE').read(),
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License-Expression: MIT', 
+        'License-Expression :: MIT', 
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.9',
