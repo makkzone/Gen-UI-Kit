@@ -46,4 +46,4 @@ jobs:
           TWINE_USERNAME: __token__  # Use __token__ for API token auth
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}  # Set your PyPI token in GitHub secrets
         run: |
-          twine upload dist/* --skip-existing  # The --skip-existing flag ensures no re-upload of existing files
+          twine upload dist/* 
