@@ -12,11 +12,10 @@ setup(
     packages=find_packages(), 
     license=open('LICENSE').read(),
     classifiers=[
-        'Programming Language :: Python :: 3',
-        'License-Expression :: MIT', 
+        'Programming Language :: Python :: 3.10',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.9',
+    python_requires='>=3.10',
     install_requires=[
         "langchain==0.3.2","gitpython==3.1.43",
     ],
